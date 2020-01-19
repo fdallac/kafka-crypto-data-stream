@@ -1,13 +1,15 @@
 echo Preparing system
 echo off
-rmdir /q /s C:\%ZOOKEEPER_LOGS_FOLDER%
-rmdir /q /s C:\%KAFKA_LOGS_FOLDER%
+rmdir /q /s C:\Tools\kafka\zk-data
+rmdir /q /s C:\Tools\kafka\kafka-logs
 timeout 1
 echo Starting Zookeeper
-start cmd /k C:\%KAFKA_FOLDER%\bin\windows\zookeeper-server-start.bat C:\%KAFKA_FOLDER%\config\zookeeper.properties
+start cmd /k C:\Tools\kafka\bin\windows\zookeeper-server-start.bat C:\Tools\kafka\config\zookeeper.properties
 timeout 5
 echo Starting Kafka Server
-start cmd /k C:\%KAFKA_FOLDER%\\bin\windows\kafka-server-start.bat C:\%KAFKA_FOLDER%\\config\server.properties
+start cmd /k C:\Tools\kafka\bin\windows\kafka-server-start.bat C:\Tools\kafka\config\server.properties
 timeout 15
-start cmd /k C:/%ANACONDA_FOLDER%/Anaconda3/python.exe c:/%THIS_APP_FOLDER%/realTimeDataCollector.py /k
-start cmd /k C:/%ANACONDA_FOLDER%/Anaconda3/python.exe c:/%THIS_APP_FOLDER%/realtTimeInterface.py /k
+start cmd /k C:/Users/Filippo/Anaconda3/python.exe c:/Users/Filippo/Desktop/ESILV/NOSql/_finalProject/realTimeDataCollector.py /k
+start cmd /k C:/Users/Filippo/Anaconda3/python.exe c:/Users/Filippo/Desktop/ESILV/NOSql/_finalProject/realTimeMA.py /k
+start cmd /k C:/Users/Filippo/Anaconda3/python.exe c:/Users/Filippo/Desktop/ESILV/NOSql/_finalProject/realTimeInterface.py /k
+
