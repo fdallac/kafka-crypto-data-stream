@@ -12,5 +12,5 @@ All the implementions could be part of a bigger project of automatic trading.
 - starter.bat: bat file to start the app in windows OS, needs to be configurated with the folder of Apache Kafk, Anaconda and this files on your own PC
 
 # Preview
-[img]https://i.ibb.co/CKX0h6q/preview.png[/img]
+![Interface](https://i.ibb.co/CKX0h6q/preview.png)
 
