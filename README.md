@@ -8,10 +8,13 @@ All the implementions could be part of a bigger project of automatic trading.
 - kafkaHelper.py: stores the method to use Apache Kafka in python
 - realTimeDataCollector.py: uses asynchronously kafka producers to call Coinbase API and get financial data, then sends records on Kafka framework, to be used by consumers. Each cryptocurrency has a dedicated topic in the stream.
 - realTimeInterface.py: consumes financial records and plot them on Bokeh server.
-- realTimeMA.py: consumers row financial data from realTimeDataCollector, computes technical indicators (moving average) and produces them to be plotted by realTimeDataInterface
+- ???.py: consumers row financial data from realTimeDataCollector, computes technical indicators (moving average) and produces them to be plotted by realTimeDataInterface
 - starter.bat: bat file to start the app in windows OS, needs to be configurated with the folder of Apache Kafk, Anaconda and this files on your own PC
+
+# Software structure
+![structure](https://user-images.githubusercontent.com/57987109/72688379-de154580-3b06-11ea-92e2-84166473d357.png)
 
 # Preview
 ![Interface](https://i.ibb.co/BnN5wMW/preview.png)
 
-![Presentation1](https://user-images.githubusercontent.com/57987109/72687964-5a0d8e80-3b03-11ea-8e47-3cbd101d4825.png)
+
