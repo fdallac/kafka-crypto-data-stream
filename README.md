@@ -14,3 +14,4 @@ All the implementions could be part of a bigger project of automatic trading.
 # Preview
 ![Interface](https://i.ibb.co/BnN5wMW/preview.png)
 
+![Presentation1](https://user-images.githubusercontent.com/57987109/72687964-5a0d8e80-3b03-11ea-8e47-3cbd101d4825.png)
