@@ -12,7 +12,7 @@ All the implementions could be part of a bigger project of automatic trading.
 - starter.bat: bat file to start the app in windows OS, needs to be configurated with the folder of Apache Kafka, Anaconda and this files on your own PC
 
 # Software structure
-![structure](https://user-images.githubusercontent.com/57987109/72688379-de154580-3b06-11ea-92e2-84166473d357.png){:height="50%" width="50%"}
+![structure](https://user-images.githubusercontent.com/57987109/72688379-de154580-3b06-11ea-92e2-84166473d357.png)
 
 # Preview
 ![Interface](https://i.ibb.co/BnN5wMW/preview.png)
